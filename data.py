@@ -1,5 +1,7 @@
 """Sample records used by the Data Search Simulator."""
 
+# Each record is a dictionary: a set of named values describing one item.
+# The list groups all records together so the search function can inspect them.
 RECORDS: list[dict[str, str]] = [
     {
         "id": "REC-001",
